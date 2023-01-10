@@ -7,17 +7,14 @@ describe("<Greet/>", () => {
     render(<Greet />);
 
     const greetingText = screen.getByText(content.Greet.text);
-
     expect(greetingText).toBeInTheDocument();
   });
 
   test("renders correctly greeting with name", () => {
     const name = "Alex";
-
     render(<Greet name={name} />);
 
     const greetingText = screen.getByText(`${content.Greet.text}, ${name}`);
-
     expect(greetingText).toBeInTheDocument();
   });
 });
