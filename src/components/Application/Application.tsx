@@ -27,11 +27,11 @@ export const Application = () => {
           </label>
         </div>
 
-        {/* <div>
+        <div>
           <label>
             Bio <textarea id="bio" />
           </label>
-        </div> */}
+        </div>
 
         <div>
           <label>
