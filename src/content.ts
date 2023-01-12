@@ -2,6 +2,9 @@ export const content = {
   Greet: {
     text: "Hello",
   },
+  Skills: {
+    list: ["JavaScript", "Typescript", "React"],
+  },
 };
 
 export const numberWithSpaces = (value: number) =>
