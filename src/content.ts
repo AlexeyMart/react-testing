@@ -4,6 +4,9 @@ export const content = {
   },
   Skills: {
     list: ["JavaScript", "Typescript", "React"],
+    loginButtonText: "Login",
+    learningButtonText: "Start learning",
+    title: "Skills",
   },
 };
 

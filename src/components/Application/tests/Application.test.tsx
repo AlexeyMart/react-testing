@@ -16,6 +16,11 @@ describe("<Application/>", () => {
       selector: "p",
     });
     expect(paragraphElement).toBeInTheDocument();
+    // the same element with callback
+    const paragraphElement1 = screen.getByText((content, _element) => {
+      return content.startsWith("All fields are mandatory");
+    });
+    expect(paragraphElement1).toBeInTheDocument();
 
     // by title attribute
     const closeElement = screen.getByTitle("close");

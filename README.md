@@ -24,3 +24,13 @@
 6. getByAltText
 7. getByTitle
 8. getByTestId
+
+### queryBy, queryAllBy + any suffix (useful if element is not present in the DOM)
+
+queryBy returns node | null
+queryAllAby returns node[] | empty array []
+
+### findBy, findAllBy + any suffix (async)
+
+findBy returns a Promise which resolves when element is found (defaultTimeout rejection = 1000ms)
+findAllBy return a Promise which resolves to array when any elements are found (defaultTimeout rejection = 1000ms)

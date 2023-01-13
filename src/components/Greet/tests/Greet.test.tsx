@@ -6,7 +6,7 @@ describe("<Greet/>", () => {
   test("renders correctly greeting without name", () => {
     render(<Greet />);
 
-    const greetingText = screen.getByText(content.Greet.text);
+    const greetingText = screen.getByText(content.Greet.text, { exact: true });
     expect(greetingText).toBeInTheDocument();
   });
 
@@ -14,7 +14,9 @@ describe("<Greet/>", () => {
     const name = "Alex";
     render(<Greet name={name} />);
 
-    const greetingText = screen.getByText(`${content.Greet.text}, ${name}`);
+    const greetingText = screen.getByText(`${content.Greet.text}, ${name}`, {
+      exact: true,
+    });
     expect(greetingText).toBeInTheDocument();
   });
 });
