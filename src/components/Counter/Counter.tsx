@@ -6,7 +6,7 @@ export const Counter = () => {
   const [amount, setAmount] = useState(0);
 
   const {
-    Counter: { setButtontext, incrementButtonText },
+    Counter: { setButtonText, incrementButtonText },
   } = content;
 
   const incrementCount = () => setCount((count) => count + 1);
@@ -22,14 +22,14 @@ export const Counter = () => {
 
       <button onClick={incrementCount}>{incrementButtonText}</button>
 
-      {/* <input
+      <input
         type="number"
         name="amount"
         value={amount}
         onChange={handleChange}
       />
 
-      <button onClick={handleClick}>Set</button> */}
+      <button onClick={handleClick}>{setButtonText}</button>
     </div>
   );
 };

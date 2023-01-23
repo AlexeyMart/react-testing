@@ -10,7 +10,7 @@ export const content = {
   },
   Counter: {
     incrementButtonText: "Increment",
-    setButtontext: "Set",
+    setButtonText: "Set",
   },
 };
 

@@ -38,3 +38,8 @@ findAllBy return a Promise which resolves to array when any elements are found (
 ### Pointer interactions
 
 click, dblClick, tripleClick, hover, unhover
+
+### Keyboard interactions
+
+tab, type, clear, selectOptions, deselectOptions, upload (for input type=file)
+copy, cut, paste
