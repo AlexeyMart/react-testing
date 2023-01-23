@@ -8,6 +8,10 @@ export const content = {
     learningButtonText: "Start learning",
     title: "Skills",
   },
+  Counter: {
+    incrementButtonText: "Increment",
+    setButtontext: "Set",
+  },
 };
 
 export const numberWithSpaces = (value: number) =>

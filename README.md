@@ -34,3 +34,7 @@ queryAllAby returns node[] | empty array []
 
 findBy returns a Promise which resolves when element is found (defaultTimeout rejection = 1000ms)
 findAllBy return a Promise which resolves to array when any elements are found (defaultTimeout rejection = 1000ms)
+
+### Pointer interactions
+
+click, dblClick, tripleClick, hover, unhover
