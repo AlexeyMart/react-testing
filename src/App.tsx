@@ -1,21 +1,27 @@
+import { AppProviders } from "./providers/AppProviders";
+import "./App.css";
 import { Greet } from "./components/Greet/Greet";
 import { Application } from "./components/Application/Application";
 import { Skills } from "./components/Skills/Skills";
 import { Counter } from "./components/Counter/Counter";
+import { Mui } from "./components/Mui/Mui";
 import { content } from "./content";
-import "./App.css";
 
 function App() {
   return (
-    <div className="app__root">
-      <Greet />
+    <AppProviders>
+      <div className="app__root">
+        <Greet />
 
-      <Counter />
+        <Mui />
 
-      <Skills skills={content.Skills.list} />
+        <Counter />
 
-      <Application />
-    </div>
+        <Skills skills={content.Skills.list} />
+
+        <Application />
+      </div>
+    </AppProviders>
   );
 }
 
