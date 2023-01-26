@@ -86,7 +86,8 @@ describe("<Counter/>", () => {
     expect(countElement).toHaveTextContent("10");
 
     await user.clear(amountInput);
-    expect(amountInput).toHaveValue(null);
+    await user.type(amountInput, "0");
+    expect(amountInput).toHaveValue(0);
   });
 
   test("elements are focused in the right order", async () => {

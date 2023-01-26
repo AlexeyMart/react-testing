@@ -25,7 +25,7 @@ export const Counter = () => {
       <input
         type="number"
         name="amount"
-        value={amount}
+        value={amount || 0}
         onChange={handleChange}
       />
 
