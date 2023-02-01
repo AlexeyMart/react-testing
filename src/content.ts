@@ -17,6 +17,10 @@ export const content = {
     incrementButtonText: "Increment",
     decrementButtonText: "Decrement",
   },
+  Users: {
+    title: "Users",
+    errorText: "Error fetching users",
+  },
 };
 
 export const numberWithSpaces = (value: number) =>

@@ -54,5 +54,8 @@
         "statements": -50
       }
     }
+  },
+  "devDependencies": {
+    "msw": "^1.0.0"
   }
 }
