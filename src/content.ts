@@ -12,6 +12,11 @@ export const content = {
     incrementButtonText: "Increment",
     setButtonText: "Set",
   },
+  AnotherCounter: {
+    title: "AnotherCounter",
+    incrementButtonText: "Increment",
+    decrementButtonText: "Decrement",
+  },
 };
 
 export const numberWithSpaces = (value: number) =>
