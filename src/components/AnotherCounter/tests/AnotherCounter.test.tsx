@@ -20,6 +20,9 @@ describe("<AnotherCounter/>", () => {
     const handleIncrement = jest.fn();
     const handleDecrement = jest.fn();
 
+    // handleDecrement.mockReturnValue(10);
+    // expect(handleDecrement()).toEqual(10);
+
     render(
       <AnotherCounter
         count={0}
