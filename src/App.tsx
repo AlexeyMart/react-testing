@@ -12,6 +12,12 @@ function App() {
   return (
     <AppProviders>
       <div className="app__root">
+        <div className="parent">
+          <div className="top"></div>
+          <div> Test</div>
+          <div className="bottom"></div>
+        </div>
+
         <Users />
 
         <Greet />
