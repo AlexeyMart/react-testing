@@ -1,6 +1,6 @@
-import { FC } from "react";
-import { Typography, Button } from "@mui/material";
-import { content } from "../../content";
+import { FC } from 'react';
+import { Typography, Button } from '@mui/material';
+import { content } from '../../content';
 
 interface Props {
   count: number;
@@ -8,11 +8,7 @@ interface Props {
   handleDecrement?: VoidFunction;
 }
 
-export const AnotherCounter: FC<Props> = ({
-  count,
-  handleIncrement,
-  handleDecrement,
-}) => {
+export const AnotherCounter: FC<Props> = ({ count, handleIncrement, handleDecrement }) => {
   const {
     AnotherCounter: { title, incrementButtonText, decrementButtonText },
   } = content;

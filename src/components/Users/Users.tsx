@@ -1,7 +1,7 @@
-import { useState, useEffect, useCallback } from "react";
-import { Typography } from "@mui/material";
-import { content } from "../../content";
-import { AppRoutesApi } from "../../constants";
+import { useState, useEffect, useCallback } from 'react';
+import { Typography } from '@mui/material';
+import { content } from '../../content';
+import { AppRoutesApi } from '../../constants';
 
 interface User {
   name: string;

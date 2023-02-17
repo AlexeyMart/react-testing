@@ -1,6 +1,6 @@
-import { FC } from "react";
-import { Typography } from "antd";
-import { content } from "../../content";
+import { FC } from 'react';
+import { Typography } from 'antd';
+import { content } from '../../content';
 
 interface Props {
   name?: string;

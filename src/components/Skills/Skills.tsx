@@ -1,6 +1,6 @@
-import { useState, useEffect, FC } from "react";
-import { content } from "../../content";
-import "./Skills.css";
+import { useState, useEffect, FC } from 'react';
+import { content } from '../../content';
+import './Skills.css';
 
 interface Props {
   skills: string[];

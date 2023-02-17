@@ -5,25 +5,14 @@ export const Application = () => {
       <h2>Section 1</h2>
       <p>All fields are mandatory</p>
       <span title="close">X</span>
-      <img
-        src="https://via.placeholder.com/150"
-        alt="a person with a laptop"
-        width={150}
-        height={150}
-      />
+      <img src="https://via.placeholder.com/150" alt="a person with a laptop" width={150} height={150} />
       <div data-testid="custom-element">Custom HTML element</div>
 
       <form>
         <div>
           <label>
             Name
-            <input
-              type="text"
-              id="name"
-              placeholder="Fullname"
-              value="Alex"
-              onChange={() => {}}
-            />
+            <input type="text" id="name" placeholder="Fullname" value="Alex" onChange={() => {}} />
           </label>
         </div>
 
@@ -49,8 +38,7 @@ export const Application = () => {
 
         <div>
           <label>
-            <input type="checkbox" id="terms" /> I agree to the terms and
-            conditions
+            <input type="checkbox" id="terms" /> I agree to the terms and conditions
           </label>
         </div>
 

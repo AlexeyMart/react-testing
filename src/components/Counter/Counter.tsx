@@ -1,5 +1,5 @@
-import { useState, ChangeEvent } from "react";
-import { content } from "../../content";
+import { useState, ChangeEvent } from 'react';
+import { content } from '../../content';
 
 export const Counter = () => {
   const [count, setCount] = useState(0);
@@ -11,8 +11,7 @@ export const Counter = () => {
 
   const incrementCount = () => setCount((count) => count + 1);
 
-  const handleChange = (event: ChangeEvent<HTMLInputElement>) =>
-    setAmount(parseInt(event.target.value));
+  const handleChange = (event: ChangeEvent<HTMLInputElement>) => setAmount(parseInt(event.target.value));
 
   const handleClick = () => setCount(amount);
 
@@ -22,12 +21,7 @@ export const Counter = () => {
 
       <button onClick={incrementCount}>{incrementButtonText}</button>
 
-      <input
-        type="number"
-        name="amount"
-        value={amount || 0}
-        onChange={handleChange}
-      />
+      <input type="number" name="amount" value={amount || 0} onChange={handleChange} />
 
       <button onClick={handleClick}>{setButtonText}</button>
     </div>
