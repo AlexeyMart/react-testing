@@ -1,6 +1,6 @@
 import { AppRoutesApi } from "../constants";
 
-export const mockData: Record<AppRoutesApi, any> = {
+export const mockData = {
   [AppRoutesApi.fetchUsers]: [
     { name: "Bruce Wayne" },
     { name: "Clark Kent" },
