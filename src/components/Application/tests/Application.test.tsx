@@ -57,5 +57,6 @@ describe("<Application/>", () => {
 
     const submitButtonElement = screen.getByRole("button", { name: "Submit" }); // "Submit" - text inside
     expect(submitButtonElement).toBeInTheDocument();
+    expect(submitButtonElement).toBeDisabled();
   });
 });
